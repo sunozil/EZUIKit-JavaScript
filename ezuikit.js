@@ -1901,7 +1901,7 @@
           _this.log("停止播放成功" + _this.opt.currentSource);
           console.log("stop success");
           // 额外销毁worker
-          // _this.jSPlugin.JS_DestroyWorker();
+          _this.jSPlugin.JS_DestroyWorker();
           _this.loadingEnd(0);
           //removeChild(0);
         }, function () {
